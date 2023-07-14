@@ -1,0 +1,19 @@
+.formContainer {
+  margin-top: 50px;
+  width: 80%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(242, 242, 242, 0.8);
+  border-radius: 45px;
+}
+
+.formInput {
+  width: 50%;
+}
+
+.popup {
+  position: absolute;
+  bottom: 0;
+}

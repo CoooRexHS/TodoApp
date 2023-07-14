@@ -1,0 +1,32 @@
+.todoItem {
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  width: 50%;
+  border: 2px solid rgba(102, 102, 102, 0.81);
+  list-style-type: none;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 15px 0 15px 0;
+}
+
+.todoItemInside {
+  display: flex;
+  word-wrap: normal;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  font-size: 25px;
+}
+
+.todoItemEdit {
+  min-width: 400px;
+  width: 80%;
+  padding: 10px;
+}
+
+.todoItemButtons {
+  display: flex;
+  flex-direction: row;
+}
